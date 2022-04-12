@@ -20,7 +20,7 @@ class Main {
               System.out.println(current.ToString());
             }
             break;
-          case 2 :
+          case 1 :
             System.out.println("podaj imie");
             String im = sca.nextLine();
             System.out.println("podaj nazwisko");
