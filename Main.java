@@ -26,7 +26,13 @@ class Main {
             String naz = sca.nextLine();
             System.out.println("podaj wiek");
             int wiek = sca.nextInt();
-            s.addStudent(new Student(im,wiek,naz));
+            System.out.println("podaj dzen urodzenia");
+            int d = sca.nextInt();
+            System.out.println("podaj miesiac urodzenia");
+            int m = sca.nextInt();
+            System.out.println("podaj rok urodzenia");
+            int r = sca.nextInt();
+            s.addStudent(new Student(im,wiek,naz,d,m,r));
             System.out.println("dodano studenta powrot do menu");
             break;
           default:
