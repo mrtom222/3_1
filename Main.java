@@ -14,7 +14,7 @@ class Main {
       while(true){
         int men = sca.nextInt();
         switch (men) {
-          case 1 :
+          case 2 :
             var students = s.getStudents();
             for(Student current : students) {
               System.out.println(current.ToString());
