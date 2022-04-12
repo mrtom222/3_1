@@ -9,8 +9,6 @@ class Main {
     sca = new Scanner(System.in);
     try {
       Service1 s = new Service1();
-      s.addStudent(new Student("Krzysztof", 20,"Brzenczyszczykiewicz"));
-      s.addStudent(new Student("Janusz", 40,"Cebula"));
       while(true){
         int men = sca.nextInt();
         switch (men) {
@@ -21,6 +19,7 @@ class Main {
             }
             break;
           case 1 :
+            sca.nextLine();
             System.out.println("podaj imie");
             String im = sca.nextLine();
             System.out.println("podaj nazwisko");
